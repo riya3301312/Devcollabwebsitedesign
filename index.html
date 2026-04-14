@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="DevCollab - A platform where engineering students collaborate on software projects" />
     <title>DevCollab - Build Projects Together</title>
-    <script>
-      // Handle redirects from 404.html for client-side routing
-      (function(){
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>

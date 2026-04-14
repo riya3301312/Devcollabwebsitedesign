@@ -34,6 +34,6 @@ export default defineConfig({
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 
-  // GitHub Pages deployment - set to '/' for root deployment or '/repo-name/' for project pages
-  base: './',
+  // GitHub Pages deployment configuration
+  base: process.env.NODE_ENV === 'production' ? '/devcollab/' : '/',
 })
