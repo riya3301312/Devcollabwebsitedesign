@@ -35,5 +35,5 @@ export default defineConfig({
   assetsInclude: ['**/*.svg', '**/*.csv'],
 
   // GitHub Pages deployment configuration
-  base: process.env.NODE_ENV === 'production' ? '/devcollab/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/DecCollabwebsitedesign/' : '/',
 })
